@@ -4,6 +4,8 @@
 
 Here we're hinted to use dnSpy to look at a C# binary.
 
+Just drag and drop the binary into the explorer of the left. From there explore the project and find the MainWindow class.
+
 here we can find what values the sliders need
 ![example](images/reversing/csharpthreeslidervalues.png)
 
@@ -26,7 +28,7 @@ public class Program
 
   private static string GetFlagString()
   {
-    byte b = 125;
+    byte b = 125; // the three slider values 99.0 + 25.0 + 1.0
     byte[] array = new byte[]
     {
      51,62,78,6,30,34,14,21,28,15,13,
@@ -44,6 +46,37 @@ public class Program
 ```
 
 Flag: *NC3{c_sharp_uden_obfuskering_er_allerede_udpakket}*
+
+---
+
+## Reversing 100 p - crackme_241219
+
+Here I chose to use IDA Free to open the binary. I went straight into strings view to see where interesting strings are used. This lead me into the entry point for this program.
+![example](images/reversing/241220191.png)
+![example](images/reversing/241220192.png)
+![example](images/reversing/241220193.png)
+
+From just looking it seems like a loop that checks each character in the argument you provide the program.
+Simply by taking the hex value that the `cmp byte ptr` is comparing against. Here IDA shows us whats the value are each step:
+
+```hex
+61 6c 6c 65 5f 65 6c 73 6b 65 72 5f 6a 75 6c 65 6e
+```
+
+From hex to utf8
+
+```html
+alle_elsker_julen
+```
+
+Flag: *NC3{alle_elsker_julen}*
+
+---
+
+
+
+
+## Reversing 350 p - SHeLLK0D3
 
 ---
 
