@@ -14,7 +14,7 @@ Ended at 29th place.
 
 [Reversing Tasks](reversing.md)
 
-[Forensics Tasks](forsensic.md)
+[Forensics Tasks](forensic.md)
 
 [Miscs Tasks](misc.md)
 
