@@ -19,3 +19,5 @@ Ended at 29th place.
 [Miscs Tasks](misc.md)
 
 ---
+
+Feel free to reach out [@Bang0x0](https://twitter.com/Bang0x0)
