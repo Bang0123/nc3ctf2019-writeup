@@ -73,10 +73,20 @@ Flag: *NC3{alle_elsker_julen}*
 
 ---
 
-
-
-
 ## Reversing 350 p - SHeLLK0D3
+
+This challenge title hints that we're somehow going to be working with shellcode...
+
+in the provided file theres alot of Hex value, but this doesn't produce anything printable. But we can disassemble this into x86.
+
+![example](images/reversing/shellkod1.png)
+There's alot of data getting pushed onto the stack and then XOR'd with hex `"02030203"`
+
+Reproducing this in cyberchef:
+![example](images/reversing/shellkod2.png)
+
+Flag: *NC3{x86_i_en_nøddeskal}*
+
 
 ---
 
