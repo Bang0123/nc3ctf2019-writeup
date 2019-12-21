@@ -87,7 +87,6 @@ Reproducing this in cyberchef:
 
 Flag: *NC3{x86_i_en_nøddeskal}*
 
-
 ---
 
 [Back](README.md)
