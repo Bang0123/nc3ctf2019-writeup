@@ -20,7 +20,21 @@ Flag: *NC3{JULERENSDYR!}*
 
 ## Forensic 350 p - indrammet_julemand
 
+Again provided file are just decimals after conversion we're left with alot of data.
+![example](images/forensic/indrammet_rick.png)
 
+The rebrand link is just an easter egg, rick can be found every year.
+
+I went straight into using `binwalk` to examine the file:
+
+![example](images/forensic/indrammet_binwalk.png)
+
+after inspecting the image `binwalk` extracted.
+It was a classic `stegsolve` opportunity:
+
+![example](images/forensic/stegsolve_indrammet.png)
+
+Flag: *NC3{JULEMANDENS_RENSDYR_På_TUR}*
 
 ---
 
