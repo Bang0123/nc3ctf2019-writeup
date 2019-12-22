@@ -1,4 +1,4 @@
-# Write-Up NC3 Julectf 2019
+# NC3 Julectf 2019 Write-Up 
 
 Team: WizardOfWz
 
