@@ -1,6 +1,6 @@
 [Back](README.md)
 
-## Reversing 75 p - C Skarp Ud
+## Reversing 75 - C Skarp Ud
 
 Here we're hinted to use dnSpy to look at a C# binary.
 
@@ -49,7 +49,7 @@ Flag: *NC3{c_sharp_uden_obfuskering_er_allerede_udpakket}*
 
 ---
 
-## Reversing 100 p - crackme_241219
+## Reversing 100 - crackme_241219
 
 Here I chose to use IDA Free to open the binary. I went straight into strings view to see where interesting strings are used. This lead me into the entry point for this program.
 ![example](images/reversing/241220191.png)
@@ -73,7 +73,7 @@ Flag: *NC3{alle_elsker_julen}*
 
 ---
 
-## Reversing 350 p - SHeLLK0D3
+## Reversing 350 - SHeLLK0D3
 
 This challenge title hints that we're somehow going to be working with shellcode...
 

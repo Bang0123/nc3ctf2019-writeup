@@ -1,6 +1,6 @@
 [Back](README.md)
 
-## Forensic 100 p - rudolf
+## Forensic 100 - rudolf
 
 Provided is a file with loads of numbers in it.
 
@@ -12,7 +12,7 @@ Flag: *NC3{JULERENSDYR!}*
 
 ---
 
-## Forensic 200 p - Zip-Mareridt!!!
+## Forensic 200 - Zip-Mareridt!!!
 
 Warning doing this challenge will extract more than 1 GB to your system.
 
@@ -62,7 +62,7 @@ Flag: NC3{godt_det_er_overstået}
 
 ---
 
-## Forensic 350 p - indrammet_julemand
+## Forensic 350 - indrammet_julemand
 
 Again provided file are just decimals after conversion we're left with alot of data.
 ![example](images/forensic/indrammet_rick.png)

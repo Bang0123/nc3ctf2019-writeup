@@ -1,6 +1,6 @@
 [Back](README.md)
 
-## misc 75 p - En lille tur
+## misc 75 - En lille tur
 
 Using [GPS Visualizer](https://www.gpsvisualizer.com/) we can upload the file we get and see a map with the flag on.
 
@@ -10,7 +10,7 @@ Flag: *NC3{GPS_NEMT}*
 
 ---
 
-## misc 175 p - Stop juletyven
+## misc 175 - Stop juletyven
 
 Opening provided powerpoint in libre office, we can see the masterminds plan. There no hidden content in the slide, or macros.
 

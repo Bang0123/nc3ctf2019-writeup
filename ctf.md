@@ -1,6 +1,6 @@
 [Back](README.md)
 
-## CTF 10 p - alle_kan_være_med
+## CTF 10 - alle_kan_være_med
 
 Given a file with an explanation, we're tasked to find a flag in the following text
 
@@ -12,7 +12,7 @@ Flag: ``NC3{jeg_er_med}``
 
 ---
 
-## CTF 25 p - skru_op!!
+## CTF 25 - skru_op!!
 
 I can honestly not remember which of the flags was the correct.
 
@@ -30,7 +30,7 @@ Reveals another flag: *NC3{en_fil_kan_gemme_paa_mange_pakker}*
 
 ---
 
-## CTF 50 p - Gæt Et Format
+## CTF 50 - Gæt Et Format
 
 Use your favorite base64 decoder
 
@@ -44,7 +44,7 @@ Flag: *NC3{der_kan_bruges_mange_forskellige_formater}*
 
 ---
 
-## CTF 70 p - enplusfiretreds
+## CTF 70 - enplusfiretreds
 
 Open file provided like any other text file
 
@@ -74,7 +74,7 @@ Flag: *NC3{har_nogen_set_min_dobbelt_diskettestation??}*
 
 ---
 
-## CTF 75 p - Onion
+## CTF 75 - Onion
 
 The name reveals we're gonna be going some layers down the hole to find the flag
 
