@@ -4,9 +4,7 @@ Team: WizardOfWz
 
 Members: Bang
 
-Ended at 29th place.
-
-*This is a writeup of what I managed to complete.*
+*This is a writeup of what I managed to complete in about a day.*
 
 ---
 
