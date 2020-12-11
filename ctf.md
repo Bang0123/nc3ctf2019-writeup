@@ -67,7 +67,7 @@ And indicated by the challenges hashtags: #ctf #klassisk
 
 we're dealing with a shift cipher.
 
-Using Cyberchef here to deal with chaining base64 and rot25
+Using Cyberchef here to deal with chaining base64 and rot25/rot-1
 ![example](images/ctf/enplusfiretreds.png)
 
 Flag: *NC3{har_nogen_set_min_dobbelt_diskettestation??}*
